@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    background-color: rgb(233, 233, 233);
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+}
+
+#conteiner{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    min-height: 600px;
+    border: 3px solid rgb(9, 0, 63);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+#classe{
+    display: flex;
+    background-color: rgb(9, 0, 63);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px 16px 0 0;
+}
+
+#classe img {
+    width: 60px;
+}
+
+#classe h1 {
+    color: white;
+    margin: 0;
+}
+
+#dados {
+    padding: 25px;
+}
+
+#dados p {
+    font-size: 18px;
+    text-align: center;
+}
+
+#dados label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+#dados input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid rgb(9, 0, 63);
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: rgba(230, 230, 230, 0.856);
+}
+
+#btnClassificar {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: rgb(9, 0, 63);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btnClassificar:hover {
+    background-color: rgb(20, 10, 100);
+}
+
+#resultado {
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    color: rgb(9, 0, 63);
+}
+
+#faixa {
+    margin: 20px 25px;
+}
+
+#faixa h6 {
+    font-size: 18px;
+    color: rgb(9, 0, 63);
+    margin-bottom: 15px;
+}
+
+#faixa p {
+    font-size: 16px;
+    margin: 8px 0;
+    padding: 8px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 6px;
+}
+
+#faixa span {
+    font-weight: bold;
+    color: rgb(9, 0, 63);
+}
